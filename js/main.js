@@ -12,4 +12,4 @@ listaCognomi.push(newCognome);
 console.log(listaCognomi);
 document.getElementById('list').innerHTML = listaCognomi.sort();
 //mostro a video anche la sua posizione
-document.getElementById('position').innerHTML = "Sei alla posizione numero: " + listaCognomi.indexOf(newCognome);
+document.getElementById('position').innerHTML = "Sei alla posizione numero: " + (listaCognomi.indexOf(newCognome)+1);
